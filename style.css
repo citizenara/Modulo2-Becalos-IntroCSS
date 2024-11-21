@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:aliceblue; 
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: blueviolet;
+}
+
+.tarjeta{
+    background-color: rgb(186, 95, 154);
+    width: 300px;
+    border-radius: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    transition: all 0.4 ease-in-out;
+}
+
+.tarjeta:hover{
+    background-color:burlywood;
+    transform: scale(1.07);
+    transform: rotate(3deg);
+}
+
+.tarjeta .imagen{
+    width: 200px;
+   
+}
+
+.tarjeta img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.tarjeta p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#corgi{
+    color: azure;
+}
+
+#pug{
+    color: rgb(153, 239, 239);
+}
